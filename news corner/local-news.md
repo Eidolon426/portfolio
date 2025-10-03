@@ -1,4 +1,4 @@
 ---
-title: Local News
+title: "Local News"
 layout: base
 ---
