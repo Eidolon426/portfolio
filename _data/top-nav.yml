@@ -1,8 +1,8 @@
 
 - title: "News Corner"
   items:
-    - title: "Cards"
-      url: "/directories/"
+    - title: "Local News"
+      url: "/local/news/"
     - title: "Left Navbar Demo"
       url: "/directories/left-nav-demo"
     - title: "Left Profile Demo"
@@ -11,29 +11,14 @@
       url: "/podcasts"
     - title: "Map"
       url: "/map"
-
-- title: "Sample Essays"
-  items:
-    - title: "Seedling Essay"
-      url: "/essays/seedling"
-    - title: "Sapling Essay"
-      url: "/essays/sapling"
-    - title: "Forest Essay"
-      url: "/essays/forest"
       
 - title: "About"
   items:
     - title: "Curiculum Vitae"
-      url: "/Curiculum/Vitae"
+      url: "/cv"
     - title: "Biography"
-      url: "/Biography"
+      url: "/biography"
     - title: "Contact"
-      url: "/components/headers"
+      url: "/contact"
     - divider: true
-    - title: "Backgrounds with scrolly boxes"
-      url: "/components/bg-scrollbox"
-    - title: "Background switching with scrolly boxes"
-      url: "/components/bg-switch"
-    - title: "Side scrolling text"
-      url: "/components/side-scroll"
     
