@@ -5,7 +5,7 @@ date: 2024-12-02
 ---
 
 
-# Your home page
+# Simon Ruybalid
 
 {% include figure.html
   class="right"
