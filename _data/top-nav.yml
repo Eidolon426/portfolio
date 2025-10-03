@@ -1,0 +1,56 @@
+
+- title: "Getting Around"
+  items:
+    - title: "Cards"
+      url: "/directories/"
+    - title: "Left Navbar Demo"
+      url: "/directories/left-nav-demo"
+    - title: "Left Profile Demo"
+      url: "/directories/left-profile-demo"
+    - title: "Podcast List"
+      url: "/podcasts"
+    - title: "Map"
+      url: "/map"
+
+- title: "Sample Essays"
+  items:
+    - title: "Seedling Essay"
+      url: "/essays/seedling"
+    - title: "Sapling Essay"
+      url: "/essays/sapling"
+    - title: "Forest Essay"
+      url: "/essays/forest"
+      
+- title: "Page components"
+  items:
+    - title: "Typography"
+      url: "/components/typography"
+    - title: "Image Basics"
+      url: "/components/images"
+    - title: "Header Basics"
+      url: "/components/headers"
+    - divider: true
+    - title: "Backgrounds with scrolly boxes"
+      url: "/components/bg-scrollbox"
+    - title: "Background switching with scrolly boxes"
+      url: "/components/bg-switch"
+    - title: "Side scrolling text"
+      url: "/components/side-scroll"
+      
+- title: "Website Guides"
+  items:
+    - title: "Getting Started"
+      url: "/guides/getting-started"
+    - title: "Understanding Folders"
+      url: "/guides/understanding-folders"
+    - title: "Understanding Pages"
+      url: "/guides/understanding-pages"
+    - title: "Editing Your Site"
+      url: "/guides/editing-your-site"
+    - title: "Adding Images"
+      url: "/guides/adding-images"
+    - title: "Troubleshooting"
+      url: "/guides/troubleshooting"
+
+- title: "FAQs"
+  url: "/faqs"
