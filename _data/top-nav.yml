@@ -3,14 +3,7 @@
   items:
     - title: "Local News"
       url: "/local/news/"
-    - title: "Left Navbar Demo"
-      url: "/directories/left-nav-demo"
-    - title: "Left Profile Demo"
-      url: "/directories/left-profile-demo"
-    - title: "Podcast List"
-      url: "/podcasts"
-    - title: "Map"
-      url: "/map"
+
       
 - title: "About"
   items:
@@ -20,5 +13,4 @@
       url: "/biography"
     - title: "Contact"
       url: "/contact"
-    - divider: true
     
