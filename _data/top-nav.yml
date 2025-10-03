@@ -1,5 +1,5 @@
 
-- title: "Getting Around"
+- title: "News Corner"
   items:
     - title: "Cards"
       url: "/directories/"
@@ -21,13 +21,13 @@
     - title: "Forest Essay"
       url: "/essays/forest"
       
-- title: "Page components"
+- title: "About"
   items:
-    - title: "Typography"
-      url: "/components/typography"
-    - title: "Image Basics"
-      url: "/components/images"
-    - title: "Header Basics"
+    - title: "Curiculum Vitae"
+      url: "/Curiculum/Vitae"
+    - title: "Biography"
+      url: "/Biography"
+    - title: "Contact"
       url: "/components/headers"
     - divider: true
     - title: "Backgrounds with scrolly boxes"
@@ -36,21 +36,4 @@
       url: "/components/bg-switch"
     - title: "Side scrolling text"
       url: "/components/side-scroll"
-      
-- title: "Website Guides"
-  items:
-    - title: "Getting Started"
-      url: "/guides/getting-started"
-    - title: "Understanding Folders"
-      url: "/guides/understanding-folders"
-    - title: "Understanding Pages"
-      url: "/guides/understanding-pages"
-    - title: "Editing Your Site"
-      url: "/guides/editing-your-site"
-    - title: "Adding Images"
-      url: "/guides/adding-images"
-    - title: "Troubleshooting"
-      url: "/guides/troubleshooting"
-
-- title: "FAQs"
-  url: "/faqs"
+    

@@ -5,7 +5,7 @@ date: 2024-12-02
 ---
 
 
-# UNM Homepage test
+- UNM Homepage test
 
 {% include figure.html
   class="right"
@@ -15,5 +15,3 @@ date: 2024-12-02
   source-url="https://commons.wikimedia.org/wiki/File:Xanthan.svg"
 %}
 
-
-This page is meant to test the base-unm layout, which includes page-header-unm.html.
