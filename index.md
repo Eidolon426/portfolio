@@ -15,10 +15,10 @@ date: 2024-12-02
 ```
 
 ```
-{%raw%}{% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" %}
+{%raw%}{% assign about = site.pages | where_exp: "page", "page.path contains 'about/'" %}
 
-{% include card-grid.html cards = essays %}{%endraw%}
+{% include card-grid.html cards = about %}{%endraw%}
 ```
 
-{% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" %}
-{% include card-grid.html cards = essays %}
+{% assign about = site.pages | where_exp: "page", "page.path contains 'about/'" %}
+{% include card-grid.html cards = about %}
