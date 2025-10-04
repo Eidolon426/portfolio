@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: base-profile
+layout: base
 date: 2024-10-26
 ---
 
