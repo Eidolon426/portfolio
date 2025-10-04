@@ -15,10 +15,10 @@ BACKGROUNDs
   max-width: 40rem;
   margin: 2rem auto;
   padding: 1.5rem 2rem;
-  font-family: 'Lora', 'Source Sans 3', sans-serif;
-  line-height: 1.6;
-  background: #fff;
-  color: #222;  
+  font-family: 'ariel', sans-serif;
+  line-height: 2.0;
+  background: #bc81c0;
+  color: #110f0f;  
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
