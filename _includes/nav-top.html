@@ -6,28 +6,50 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        {% for item in site.data.top-nav %}
-          {% if item.items %}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                {{ item.title }}
-              </a>
-              <ul class="dropdown-menu">
-                {% for subitem in item.items %}
-                  {% if subitem.divider %}
-                    <li><hr class="dropdown-divider"></li>
-                  {% else %}
-                    <li><a class="dropdown-item" href="{{site.baseurl}}{{ subitem.url }}">{{ subitem.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
-          {% else %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
+                
+        <li class="nav-item">
+          <a class="nav-link" href="{{site.baseurl}}/about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{site.baseurl}}/directories">Directories</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            about
+          </a>
+          <ul class="dropdown-menu">        
+            <li><a class="dropdown-item" href="{{site.baseurl}}/cv">Curriculum Vitae</a></li>
+            <li><a class="dropdown-item" href="{{site.baseurl}}/biography">Biography</a></li>        
+            <li><a class="dropdown-item" href="{{site.baseurl}}/contact">Contact</a></li>                
+          </ul>
+        </li>
+
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            news corner
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item" href="{{site.baseurl}}/local/news">Local News</a></li>
+            <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{site.baseurl}}/components/images">Image Basics</a></li>
+              <li><a class="dropdown-item" href="{{site.baseurl}}/components/headers">Header Basics</a></li>
+              <li><a class="dropdown-item" href="{{site.baseurl}}/components/bg-scrollbox">Backgrounds with scrolly boxes</a></li>
+              <li><a class="dropdown-item" href="{{site.baseurl}}/components/bg-switch">Background switching with scrolly boxes</a></li>
+              <li><a class="dropdown-item" href="{{site.baseurl}}/components/side-scroll">Side scrolling text</a></li>
+
+          </ul>
+        </li>
+
+
+
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+        -->
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
