@@ -13,26 +13,26 @@ PAGE SETUP
 
 /* Minimalist mountain palette */
 :root {
-  --pine: #394e42;         /* Deep pine green */
-  --lichen: #c3d0b7;       /* Soft lichen green */
-  --snow: #fefffe;         /* Pure snow white */
-  --granite: #fbd4fb;      /* Charcoal granite */
-  --fog: #0f0217;          /* Light gray-green */
-  --cedar: #7d8471;        /* Muted cedar green */
+  --ube: #a766b3;         /* Ube purple */
+  --wine: #57124d;       /* Wine purple */
+  --terracotta: #963e30;         /* Terracotta red */
+  --frosting: #ffcbff;      /* Frosting pink */
+  --dusk: #0f0217;          /* Dark dusk purple */
+  --crimson: #800e0e;        /* Crimson */
 
   /* Semantic assignments */
-  --text-primary: var(--granite);
-  --text-secondary: #4a4a4a;
-  --text-muted: #7a7a7a;
-  --text-link: var(--pine);
+  --text-primary: var(--dusk);
+  --text-secondary: #363ed7;
+  --text-muted: #654b69;
+  --text-link: var(--crimson);
 
-  --bg-primary: var(--snow);
-  --bg-secondary: var(--fog);
+  --bg-primary: var(--ube);
+  --bg-secondary: var(--frosting);
   
-  --accent: var(--pine);
-  --accent-hover: var(--lichen);
+  --accent: var(--wine);
+  --accent-hover: var(--crimson);
   
-  --border: var(--pine);
+  --border: var(--dusk);
 }
 
 html, body {
