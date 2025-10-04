@@ -1,6 +1,7 @@
 ---
-title: Curriculum Vitae
+title: curriculum vitae
 layout: base
+date: 2025-10-03
 ---
 
 # Simon Ruybalid

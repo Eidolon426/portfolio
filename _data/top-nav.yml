@@ -1,16 +1,16 @@
 
 - title: "News Corner"
   items:
-    - title: "Local News"
+    - title: "local news"
       url: "/local/news/"
 
       
 - title: "About"
   items:
-    - title: "Curriculum Vitae"
+    - title: "curriculum vitae"
       url: "/cv"
-    - title: "Biography"
+    - title: "biography"
       url: "/biography"
-    - title: "Contact"
+    - title: "contact"
       url: "/contact"
     
