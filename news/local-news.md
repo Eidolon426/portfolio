@@ -11,5 +11,13 @@ header-position: 0px
 <br/>
 {% assign articles = site.pages | where_exp: "page", "page.path contains 'articles/'" %}
 {% include card-grid.html cards = articles%}
+<br/>
+
+
+{% assign cards = page.cards %}
+
+{% include card-list.html 
+cards = cards 
+%}
 
 
