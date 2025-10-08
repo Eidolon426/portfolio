@@ -383,7 +383,7 @@ footer {
   justify-content: center;
   
   background-color: var(--wine);
-  border-top: 2px solid var(--border);
+  border-top: 2px solid var(--terracotta);
 }
 
 /* for a footer on top of the UNM footer */
