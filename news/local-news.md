@@ -4,13 +4,12 @@ layout: base
 date: 2025-10-03
 header-title: Introduction
 header-position: 0px
+header-image: /assets/images/backgrounds/spring.jpg
 ---
 
----
-<object-position: center;>
 ### Local News
 
----
+
 
 <br/>
 {% assign articles = site.pages | where_exp: "page", "page.path contains 'articles/'" %}
