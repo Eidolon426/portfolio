@@ -382,16 +382,16 @@ footer {
   vertical-align: center;
   justify-content: center;
   
-  background-color: var(--fog);
+  background-color: var(--wine);
   border-top: 2px solid var(--border);
 }
 
 /* for a footer on top of the UNM footer */
 .site-footer {
   font-size: 0.9rem;
-  color: #888;
+  color: #670000;
   margin-top: 32px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #4a0000;
   padding-top: 16px;
 }
 
