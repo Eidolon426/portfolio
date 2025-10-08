@@ -5,19 +5,18 @@
 
 /* --- Color Palette --- */
 :root {
-  --charcoal: #1C1C1C;
-  --navy: #0E1A2B;
-  --cream: #c6c4bd;
-  --red: #D62828;
-  --ochre: hsl(48, 100%, 44%);
-  --teal: #009FB7;
-  --sage: #A3B18A;
+  --ube: #a766b3;         /* Ube purple */
+  --wine: #57124d;       /* Wine purple */
+  --terracotta: #963e30;         /* Terracotta red */
+  --frosting: #ffcbff;      /* Frosting pink */
+  --dusk: #0f0217;          /* Dark dusk purple */
+  --crimson: #800e0e;        /* Crimson */
 
-  --text-main: var(--cream);
-  --text-muted: #bcbcbc;
-  --bg-main: var(--navy);
-  --bg-alt: var(--charcoal);
-  --accent: var(--red);
+  --text-main: var(--dusk);
+  --text-muted: var(--terracotta);
+  --bg-main: var(--ube);
+  --bg-alt: var(--frosting);
+  --accent: var(--crimson);
 }
 
 
@@ -26,7 +25,7 @@ PAGE SETUP
 *****************************************************/
 
 html, body {
-  font-family: "Inter", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2rem;
   background: var(--bg-main);
@@ -43,7 +42,7 @@ html, body {
 /* --- Headings --- */
 h1, h2, h3, h4 {
   margin-bottom: 0.5rem;
-  font-family: "Futura", sans-serif;
+  font-family: "Arial", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.05rem;
@@ -56,13 +55,13 @@ h1 {
 
 h2 {
   font-size: 2.0rem;
-  color: var(--ochre);
+  color: var(--accent);
 }
 
 h3 {
   margin-top: 2rem;
   font-size: 1.6rem;
-  color: var(--teal);
+  color: var(--accent);
 }
 
 h4 {
@@ -123,11 +122,11 @@ nav {
 
 nav a {
   font-family: "Space Mono", monospace;
-  color: var(--cream);
+  color: var(--crimson);
 }
 
 nav a:hover {
-  color: var(--accent);
+  color: var(--crimson);
 }
 
 
@@ -135,7 +134,7 @@ nav a:hover {
 
 /* --- Cards/Blocks --- */
 .card {
-  background: var(--cream);
+  background: var(--navy);
   color: var(--charcoal);
   padding: 2em;
   margin: 1em 0;
@@ -220,7 +219,7 @@ button,
 
 button:hover,
 .btn:hover {
-  background: var(--ochre);
+  background: var(--wine);
 }
 
 
