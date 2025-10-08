@@ -12,7 +12,7 @@ header-image: /assets/images/spring.jpg
 
 
 <br/>
-{% assign pages = site.pages | where_exp: "page", "page.path contains 'articles/'" %}
+{% assign articles = site.pages | where_exp: "page", "page.path contains 'articles/'" %}
 {% include card-grid.html cards = articles%}
 <br/>
 
