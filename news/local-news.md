@@ -2,12 +2,10 @@
 title: "Local News"
 layout: base
 date: 2025-10-03
-header-title: Introduction
-header-position: 0px
 header-image: /assets/images/spring.jpg
 ---
 
-### Local News
+## Local News
 
 
 
