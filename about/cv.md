@@ -36,17 +36,6 @@ Email: sruybalid24@unm.edu
 
 ---
 
-## Professional Experience
-
-### Graduate Research Assistant, Digital Heritage Lab
-*Southwest State University*  
-2021–present  
-- Developed interactive 3D reconstructions of historic sites for virtual museum exhibitions.  
-- Managed metadata and digitization workflows for oral history collections.  
-- Co-designed community workshops on digital storytelling.  
- 
-
----
 
 ## Conferences & Presentations
 - *"Song of the Colibri: An Exploratory Discussion on Chisme"* - Asosiation of Joteria Arts, Activism and Scholarship National Conference (2024).  
