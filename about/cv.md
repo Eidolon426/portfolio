@@ -53,3 +53,10 @@ Email: sruybalid24@unm.edu
 
 ## Extracurricular Activities
 - Co-organizer, *Assosiation of Joteria Arts, Activism, and Scholarship* first collegic chapter. (2022–present)  
+
+{% include figure.html 
+class="right" 
+width="48%" 
+caption="Resume" 
+image-path="images/resume.png" 
+%}
