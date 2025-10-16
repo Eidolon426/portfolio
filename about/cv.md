@@ -58,5 +58,5 @@ Email: sruybalid24@unm.edu
 class="right" 
 width="48%" 
 caption="Resume" 
-image-path="images/resume.png" 
+image-path="assets/images/resume.png" 
 %}
