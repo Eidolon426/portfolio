@@ -1,8 +1,8 @@
 ---
-title: "Local News"
+title: Local News
 layout: base
 date: 2025-10-03
-header-image: /images/spring.jpg
+header-image: images/spring.jpg
 ---
 
 ## Local News
