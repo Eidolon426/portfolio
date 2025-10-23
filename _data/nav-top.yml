@@ -3,6 +3,8 @@
   items:
     - title: "Local News"
       url: "/news/local"
+    - title: "National News"
+      url: "/news/national" 
       
 - title: "About"
   items:
