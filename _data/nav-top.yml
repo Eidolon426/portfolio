@@ -2,7 +2,7 @@
 - title: "News Bulletin"
   items:
     - title: "Local News"
-      url: "/news/local"
+      url: "/news/local/local-news"
 
       
 - title: "About"
