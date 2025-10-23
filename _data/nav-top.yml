@@ -10,8 +10,7 @@
   items:
     - title: "Curriculum Vitae"
       url: "/about/cv"
-    - title: "Biography"
-      url: "/about/biography"
-    - title: "Contact"
-      url: "/about/contact"
+    - title: "Resume"
+      url: "/about/resume"
+
     
