@@ -23,7 +23,7 @@ Email: sruybalid24@unm.edu
 ### A.A. Liberal Arts
 *San Juan College*              
 2018-2022       
-- Graduated with Honors and a certificate of General Education
+Graduated with Honors and a certificate of General Education
 
 ---
 
@@ -53,3 +53,5 @@ Email: sruybalid24@unm.edu
 
 ## Extracurricular Activities
 - Co-organizer, *Assosiation of Joteria Arts, Activism, and Scholarship* first collegic chapter. (2022–present)  
+
+
