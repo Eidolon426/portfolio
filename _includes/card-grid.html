@@ -7,7 +7,7 @@
   <div class="col">
     <div class="card v-card h-100">
       {% assign card_href = card.link | default: card.url %}
-      <a href="{{ card_href }}">
+      <a href="{{ card_href | relative_url }}">
         <img src="{{site.baseurl}}{{ card.dir }}{{ card.thumbnail }}" class="card-img-top" alt="...">      
         <div class="card-body">
           <h3 class="card-title">{{ card.title }}</h3>
