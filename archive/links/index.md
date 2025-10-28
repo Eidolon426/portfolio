@@ -5,5 +5,5 @@ date: 2025-10-03
 ---
 
 
-## Local News
+## Cool Links
 
