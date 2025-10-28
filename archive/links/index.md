@@ -18,7 +18,6 @@ cards:
   class="center"
   width="40%"
   image-path="images/zotero.png"
-  image-link="https://www.zotero.org/"
   caption= Zotero is a citation management software. I've used it to build a library of citations
 %}
 
@@ -32,3 +31,5 @@ anna's archive
 way back machine
 
 archive links
+
+---
