@@ -9,6 +9,6 @@ date: 2025-10-03
   class="center"
   width="100%"
   height="100%"
-  image-path="/assets/images/resume.png" 
+  image-path="/images/resume.png" 
 %}
 ---
