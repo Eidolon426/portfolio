@@ -13,4 +13,12 @@
     - title: "Resume"
       url: "/about/resume"
 
+- title: "Archive"
+  items:
+    - title: "Recipe Book"
+      url: "/archive/recipe-book"
+    - title: "Cool Links"
+      url: "/archive/cool-links"
+
+
     
