@@ -16,9 +16,9 @@
 - title: "Archive"
   items:
     - title: "Recipe Book"
-      url: "/archive/recipe-book"
+      url: "/archive/recipe"
     - title: "Cool Links"
-      url: "/archive/cool-links"
+      url: "/archive/links"
 
 
     
