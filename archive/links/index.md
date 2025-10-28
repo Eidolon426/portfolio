@@ -14,6 +14,11 @@ cards:
     card-link: "thesis/chapter-2"
 ---
 
+{% assign cards = page.cards %}
+
+{% include card-list.html 
+cards = cards 
+%}
 
 Research Tools
 
