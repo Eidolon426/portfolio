@@ -14,11 +14,14 @@ cards:
     card-link: "thesis/chapter-2"
 ---
 
-{% assign cards = page.cards %}
-
-{% include card-list.html 
-cards = cards 
+{% include figure.html
+  class="center"
+  width="40%"
+  image-path="images/zotero.png"
+  image-link="https://www.zotero.org/"
+  caption= Zotero is a citation management software. I've used it to build a library of citations
 %}
+
 
 Research Tools
 
