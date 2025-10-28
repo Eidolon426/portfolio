@@ -5,7 +5,7 @@ date: 2025-10-03
 ---
 
 
-</br>
+<br>
 {% include figure.html
   class="center"
   width="80%"

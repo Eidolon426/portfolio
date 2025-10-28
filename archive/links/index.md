@@ -4,7 +4,7 @@ layout: base
 date: 2025-10-03
 cards: 
   - title: "Zotero"
-    card-image: https://www.zotero.org/static/images/home/privacy.svg
+    card-image: images/zotero.png
     card-blurb: Zotero is a citation management software. I've used it to build a library of citations.
     card-link: "https://www.zotero.org/"
 
