@@ -491,7 +491,7 @@ ul li.highlighted::marker {
 /*****************************************************************************/
 
 details {
-  border: 1px solid var(--dusk);
+  border: 3px solid var(--dusk);
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
