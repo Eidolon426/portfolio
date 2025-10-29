@@ -5,7 +5,7 @@ date: 2025-10-03
 ---
 
 # Simon Ruybalid
-Email: sruybalid24@unm.edu  
+sruybalid24@unm.edu  
 
 ---
 
@@ -28,7 +28,12 @@ Graduated with Honors and a certificate of General Education
 ---
 
 ## Areas of Interest
-- Latin American / USA relations
+<details>
+<summary>- Latin American / USA relations</summary>
+1
+2
+</details>
+
 - Transnational Studies
 - Borderlands / Fronterismo
 - Feminism
