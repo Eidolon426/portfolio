@@ -482,3 +482,34 @@ ul li.highlighted::marker {
     margin: 0;
   }
 }
+
+/*****************************************************************************/
+/*
+/* Details
+/*
+/*****************************************************************************/
+
+details {
+  border: 1px solid var(--wine);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: crimson;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  background-color: var(--ube);
+  border-radius: 3px;
+  margin: -10px -10px 10px -10px;
+}
+
+summary:hover {
+  background-color: var(--ube);
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
