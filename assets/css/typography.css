@@ -11,7 +11,7 @@ TYPOGRAPHY
 *****************************************************/
 
 html, body {
-  font-family: 'Lora', sans-serif;
+  font-family: 'arial', sans-serif;
   font-size: 1rem; /* 16px is base font size */
   line-height: 1.4em;
 }
@@ -162,7 +162,7 @@ BLOCKQUOTE
 *****************************************************/
 
 blockquote {
-  border-left: 4px solid darkgrey;
+  border-left: 4px solid rgb(19, 85, 103);
   max-width: 80%;
   margin: 1rem auto;
   padding: 0.5rem .5rem;
