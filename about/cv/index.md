@@ -29,17 +29,40 @@ Graduated with Honors and a certificate of General Education
 
 ## Areas of Interest
 <details>
-<summary>- Latin American / USA relations</summary>
+<summary> Latin American / USA relations </summary>
 1
 2
 </details>
-
-- Transnational Studies
-- Borderlands / Fronterismo
-- Feminism
-- Historiography
-- Migration and Asylum Studies
-- Histories of Citizenship / Freedom 
+<details>
+<summary> Transnational Studies </summary>
+1
+2
+</details>
+<details>
+<summary> Borderlands / Fronterismo </summary>
+1
+2
+</details>
+<details>
+<summary> Feminism </summary>
+1
+2
+</details>
+<details>
+<summary> Historiography </summary>
+1
+2
+</details>
+<details>
+<summary> Migration and Asylum Studies </summary>
+1
+2
+</details>
+<details>
+<summary> Histories of Citizenship / Freedom </summary>
+1
+2
+</details>
 
 ---
 
