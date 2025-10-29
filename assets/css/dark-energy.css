@@ -135,7 +135,7 @@ nav a:hover {
 
 /* --- Cards/Blocks --- */
 .card {
-  background: var(--navy);
+  background: var(--muted);
   color: var(--charcoal);
   padding: 2em;
   margin: 1em 0;
@@ -211,8 +211,8 @@ button,
   color: var(--text-main);
   border: none;
   padding: 0.75em 1.5em;
-  font-family: "Space Mono", monospace;
-  font-size: 1rem;
+  font-family: "Arial", monospace;
+  font-size: 1.5rem;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s ease;
