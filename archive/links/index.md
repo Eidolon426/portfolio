@@ -14,12 +14,7 @@ cards:
     card-link: "thesis/chapter-2"
 ---
 
-{% include figure.html
-  class="center"
-  width="40%"
-  image-path="images/zotero.png"
-  caption= Zotero is a citation management software. I've used it to build a library of citations
-%}
+
 
 
 Research Tools
