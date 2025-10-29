@@ -14,6 +14,7 @@ PAGE SETUP
 /* Minimalist mountain palette */
 :root {
   --ube: #a766b3;         /* Ube purple */
+  --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
   --frosting: #ffcbff;      /* Frosting pink */
@@ -209,9 +210,9 @@ IMAGES
 *****************************************************/
 
 figure {
-  margin-bottom:0;
+  margin-bottom:2rem;
   clear:none;
-  margin:none;
+  margin: 0.5rem;
   /* no bottom padding; handled with caption */
 }
 
@@ -383,7 +384,7 @@ footer {
   justify-content: center;
   
   background-color: var(--wine);
-  border-top: 2px solid var(--terracotta);
+  border-top: 2px solid var(--grape);
 }
 
 /* for a footer on top of the UNM footer */
@@ -420,7 +421,7 @@ ul li.highlighted {
 }
 
 ul li.highlighted::marker {
-  color: #ffc107;
+  color: #fcff2d;
   font-weight: bold;
 }
 
