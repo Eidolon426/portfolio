@@ -113,7 +113,7 @@ a:hover::after {
 
 /* --- Navbar --- */
 nav {
-  background: var(--bg-alt);
+  background: var(--dusk);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;

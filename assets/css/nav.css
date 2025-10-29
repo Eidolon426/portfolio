@@ -22,7 +22,7 @@ TOPNAV
   font-weight: bold !important;
   text-decoration: none;
   border-bottom: none;
-  color: var(--text-primary) !important;
+  color: var(--wine) !important;
 }
 
 .navbar-nav {
@@ -32,7 +32,7 @@ TOPNAV
 }
 
 .navbar-nav a {
-  color: var(--text-primary);
+  color: var(--dusk);
   text-decoration: none;
   padding: .5rem 1rem;
   border-radius: 4px;
