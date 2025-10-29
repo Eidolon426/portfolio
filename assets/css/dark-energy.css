@@ -9,11 +9,12 @@
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
   --frosting: #ffcbff;      /* Frosting pink */
+  --muted: #cf7bfd;
   --dusk: #0f0217;          /* Dark dusk purple */
   --crimson: #800e0e;        /* Crimson */
 
   --text-main: var(--dusk);
-  --text-muted: var(--terracotta);
+  --text-muted: var(--muted);
   --bg-main: var(--ube);
   --bg-alt: var(--frosting);
   --accent: var(--crimson);
@@ -113,7 +114,7 @@ a:hover::after {
 
 /* --- Navbar --- */
 nav {
-  background: var(--dusk);
+  background: var(--wine);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -122,7 +123,7 @@ nav {
 
 nav a {
   font-family: "Space Mono", monospace;
-  color: var(--crimson);
+  color: var(--text-main);
 }
 
 nav a:hover {
@@ -206,8 +207,8 @@ ToC ROWS
 /* --- Buttons --- */
 button,
 .btn {
-  background: var(--accent);
-  color: var(--wine);
+  background: var(--bg-main);
+  color: var(--text-main);
   border: none;
   padding: 0.75em 1.5em;
   font-family: "Space Mono", monospace;
