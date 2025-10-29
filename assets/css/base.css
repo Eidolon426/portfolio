@@ -17,18 +17,19 @@ PAGE SETUP
   --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
-  --frosting: #ffcbff;      /* Frosting pink */
-  --dusk: #0f0217;          /* Dark dusk purple */
+  --frosting: #f0a4f0;      /* Frosting pink */
+  --dusk: #180051;          /* Dusk Purple */
+  --scab: #0f0217;          /* Dark Red */
   --crimson: #800e0e;        /* Crimson */
 
   /* Semantic assignments */
   --text-primary: var(--dusk);
-  --text-secondary: #180051;
-  --text-muted: #cf7bfd;
-  --text-link: var(--crimson);
+  --text-secondary: var(crimson--);
+  --text-muted: var(--frosting);
+  --text-link: var(--terracotta);
 
   --bg-primary: var(--ube);
-  --bg-secondary: var(--frosting);
+  --bg-secondary: var(--grape);
   
   --accent: var(--wine);
   --accent-hover: var(--crimson);
