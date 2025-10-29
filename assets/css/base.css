@@ -490,24 +490,24 @@ ul li.highlighted::marker {
 /*****************************************************************************/
 
 details {
-  border: 1px solid var(--wine);
-  border-radius: 5px;
+  border: 1px solid var(--dusk);
+  border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
-  background-color: crimson;
+  background-color: var(--crimson);
 }
 
 summary {
   font-weight: bold;
   cursor: pointer;
   padding: 5px;
-  background-color: var(--ube);
+  background-color: var(--crimson);
   border-radius: 3px;
   margin: -10px -10px 10px -10px;
 }
 
 summary:hover {
-  background-color: var(--ube);
+  background-color: var(--terracotta);
 }
 
 details[open] summary {

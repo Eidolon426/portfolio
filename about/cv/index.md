@@ -59,7 +59,7 @@ Graduated with Honors and a certificate of General Education
 2
 </details>
 <details>
-<summary> Histories of Citizenship / Freedom </summary>
+<summary>📋 Histories of Citizenship / Freedom </summary>
 1
 2
 </details>
