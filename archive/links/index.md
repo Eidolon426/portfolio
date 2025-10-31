@@ -11,9 +11,7 @@ date: 2025-10-03
 <summary> Anna's Archive - Massive Free Online Library </summary>
 
 
->Useful particularly for finding free versions of academic books. But also, Anna's archive includes everything from comics and childrens books, to smut, religious documents, and cook books.
-
-https://annas-archive.org/
+[Useful particularly for finding free versions of academic books. But also, Anna's archive includes everything from comics and childrens books, to smut, religious documents, and cook books.](https://annas-archive.org/)
 
 
 </details>
@@ -21,9 +19,7 @@ https://annas-archive.org/
 <summary> Archive Links </summary>
 
 
->Extention that lets you archive webpages before they are taken down.
-
-https://addons.mozilla.org/en-US/firefox/addon/archive-page/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+[Extention that lets you archive webpages before they are taken down.](https://addons.mozilla.org/en-US/firefox/addon/archive-page/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 
 </details>
