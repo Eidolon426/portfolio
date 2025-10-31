@@ -31,9 +31,7 @@ https://addons.mozilla.org/en-US/firefox/addon/archive-page/?utm_source=addons.m
 <summary> Internet Archive - Massive Free Online Library Including Non-Written Sources</summary>
 
 
->A free library of digitized documents
-
-https://archive.org/
+[A free library of digitized documents](https://archive.org/)
 
 
 </details>
@@ -41,18 +39,15 @@ https://archive.org/
 <summary> Way Back Machine - Archive of web pages </summary>
 
 
->Useful for reasearch of the internet.
-
-https://archive.org/
+[Useful for reasearch of the internet.](https://archive.org/)
 
 
 </details>
 <details>
 <summary> Zotero - Citation Managment Software </summary>
 
-```
+
 [Zotero is a useful orginizational tool that has allowed me to build a library of citations and linked documents. It automatically formats bibliographies for me in Chicago. Because of Zotero, my reasearch is signifigantly more orginized.](https://www.zotero.org/) 
-```
 
 
 </details>
