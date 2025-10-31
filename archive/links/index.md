@@ -4,28 +4,31 @@ layout: base
 date: 2025-10-03
 ---
 
-
----
-title: zotero
-image: images/zotero.png
-summary: This is my first episode summary. Delicious!
-date: 2025-09-13
-layout: base
-tags:
-  - history
-  - technology
-  - education
 ---
 
+## Research Links
 
-Research Tools
+<details>
+<summary> Anna's Archive - Free open library </summary>
+<image> images/zotero.png </image>
+1
+2
+</details>
+<details>
+<summary> Archive Links </summary>
+1
+2
+</details>
+<details>
+<summary> Way Back Machine </summary>
+1
+2
+</details>
+<details>
+<summary> Zotero - Citation Managment </summary>
+1
+2
+</details>
 
-zotero
-
-anna's archive
-
-way back machine
-
-archive links
 
 ---
