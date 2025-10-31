@@ -7,7 +7,7 @@ date: 2025-10-03
 ```
 ---
 title: zotero
-image: /images/zotero.png
+image: images/zotero.png
 summary: This is my first episode summary. Delicious!
 date: 2025-09-13
 layout: base

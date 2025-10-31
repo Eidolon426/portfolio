@@ -1,6 +1,6 @@
 ---
 title: Zotero
-image: /images/zotero.png
+image: images/zotero.png
 summary: This is my first episode summary. Delicious!
 date: 2025-08-01
 layout: base
