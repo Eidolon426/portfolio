@@ -4,7 +4,7 @@ layout: base
 date: 2025-10-03
 ---
 
-```
+
 ---
 title: zotero
 image: images/zotero.png
@@ -16,7 +16,6 @@ tags:
   - technology
   - education
 ---
-```
 
 
 Research Tools
