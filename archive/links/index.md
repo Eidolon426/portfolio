@@ -16,9 +16,9 @@ Useful particularly for finding free versions of academic books. But also, Anna'
 </details>
 <details>
 <summary> Archive Links </summary>
+https://addons.mozilla.org/en-US/firefox/addon/archive-page/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 Extention that lets you archive webpages before they are taken down.
-
 </details>
 <details>
 <summary> Internet Archive - Massive Free Online Library Including Non-Written Sources</summary>
