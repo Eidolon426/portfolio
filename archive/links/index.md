@@ -32,6 +32,7 @@ https://archive.org/
 
 Useful for reasearch of the internet.
 </details>
+```
 <details>
 <summary> Zotero - Citation Managment Software </summary>
 https://www.zotero.org/
@@ -39,6 +40,6 @@ https://www.zotero.org/
 Zotero is a useful orginizational tool that has allowed me to build a library of citations and linked documents. It automatically formats bibliographies for me in Chicago. Because of Zotero, my reasearch is signifigantly more orginized. 
 
 </details>
-
+```
 
 ---
