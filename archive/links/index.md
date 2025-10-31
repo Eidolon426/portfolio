@@ -51,10 +51,8 @@ https://archive.org/
 <summary> Zotero - Citation Managment Software </summary>
 
 ```
-Zotero is a useful orginizational tool that has allowed me to build a library of citations and linked documents. It automatically formats bibliographies for me in Chicago. Because of Zotero, my reasearch is signifigantly more orginized. 
+[Zotero is a useful orginizational tool that has allowed me to build a library of citations and linked documents. It automatically formats bibliographies for me in Chicago. Because of Zotero, my reasearch is signifigantly more orginized.](https://www.zotero.org/) 
 ```
-
-*https://www.zotero.org/*
 
 
 </details>
