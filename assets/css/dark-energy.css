@@ -94,7 +94,7 @@ p {
 
 /* --- Links --- */
 a {
-  color: var(--accent);
+  color: var(--text-link);
   text-decoration: none;
   position: relative;
   font-weight: 600;
@@ -130,11 +130,11 @@ nav {
 
 nav a {
   font-family: "Space Mono", monospace;
-  color: var(--accent);
+  color: var(--text-primary);
 }
 
 nav a:hover {
-  color: var(--accent-hover);
+  color: var(--text-link);
 }
 
 
