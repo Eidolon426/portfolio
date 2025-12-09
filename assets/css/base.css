@@ -19,7 +19,6 @@ PAGE SETUP
   --terracotta: #963e30;         /* Terracotta red */
   --frosting: #f0a4f0;      /* Frosting pink */
   --dusk: #180051;          /* Dusk Purple */
-  --scab: #0f0217;          /* Dark Red */
   --crimson: #800e0e;        /* Crimson */
 
   /* Semantic assignments */
@@ -383,7 +382,7 @@ footer {
   padding: 2em;
   vertical-align: center;
   justify-content: center;
-  text-emphasis-color: var(--dusk);
+  text-emphasis-color: var(--frosting);
   font-size: 3rem;
   background-color: var(--wine);
   border-top: 1px solid var(--dusk);
