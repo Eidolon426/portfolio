@@ -17,8 +17,8 @@ BACKGROUNDs
   padding: 1.5rem 2rem;
   font-family: 'ariel', sans-serif;
   line-height: 2.0;
-  background: (--ube);
-  color: (--wine);  
+  background: var(--bg-secondary);
+  color: var(--text-primary);  
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
@@ -51,7 +51,7 @@ STICKY BACKGROUND
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background: blue;
+  background: var(--bg-secondary);
   height: auto;
 }
 

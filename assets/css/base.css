@@ -17,21 +17,21 @@ PAGE SETUP
   --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
-  --frosting: #f0a4f0;      /* Frosting pink */
+  --amathyst: #7942fa;      /* Amathyst */
   --dusk: #180051;          /* Dusk Purple */
-  --crimson: #800e0e;        /* Crimson */
+  --Lapiz: #061376;        /* Lapiz */
 
   /* Semantic assignments */
   --text-primary: var(--dusk);
-  --text-secondary: var(--crimson);
-  --text-muted: var(--frosting);
+  --text-secondary: var(--Lapiz);
+  --text-muted: var(--amathyst);
   --text-link: var(--terracotta);
 
   --bg-primary: var(--ube);
   --bg-secondary: var(--grape);
   
   --accent: var(--wine);
-  --accent-hover: var(--crimson);
+  --accent-hover: var(--dusk);
   
   --border: var(--dusk);
 }
@@ -67,7 +67,7 @@ JUMBOTRON
   background-size: cover; 
   background-repeat: no-repeat;
   opacity: 1;   
-  color: var(--frosting);
+  color: var(--bg-secondary);
   text-shadow: black 0.3em 0.3em 0.3em;
 }
 
@@ -86,8 +86,8 @@ ToC ROWS
   padding: 1.5rem;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 300;
-  background: var(--bg-secondary);
-  border-left: 3px solid var(--accent-hover);
+  background: var(--bg-primary);
+  border-left: 3px solid var(--border);
   border-radius: 6px;
   align-items: center;
   overflow: hidden;
@@ -95,14 +95,14 @@ ToC ROWS
 }
 
 .toc-row:hover {
-  border-left-color: var(--accent);
+  border-left-color: var(--border);
   cursor: pointer;
 }
 
 .toc-row a {
   font-weight: normal !important;
   text-decoration: none;
-  color: var(--wine);
+  color: var(--bg-primary);
 }
 
 .toc-row img.card-image {
@@ -357,7 +357,7 @@ IMAGE CAROUSEL
 
 p.carousel-caption {
   color: var(--text-primary);
-  border: 0px solid black;
+  border: 0px solid var(--border);
   font-family:'Source Sans 3';
   font-size:1.4rem;
   line-height: 1.8rem;
@@ -382,10 +382,10 @@ footer {
   padding: 2em;
   vertical-align: center;
   justify-content: center;
-  text-emphasis-color: var(--frosting);
+  text-emphasis-color: var(--text-primary);
   font-size: 3rem;
-  background-color: var(--wine);
-  border-top: 1px solid var(--dusk);
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border);
 }
 
 /* for a footer on top of the UNM footer */
