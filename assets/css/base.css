@@ -95,7 +95,7 @@ ToC ROWS
 }
 
 .toc-row:hover {
-  border-left-color: var(--border);
+  border-left-color: var(--accent-hover);
   cursor: pointer;
 }
 
@@ -320,7 +320,7 @@ DIRECTORY CARDS
 
 .card  a {
   opacity:1;
-  color:var(--dusk);
+  color:var(--text-primary);
   text-decoration: none;
   border-bottom:2px
 }
