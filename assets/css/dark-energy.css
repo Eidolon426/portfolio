@@ -6,20 +6,27 @@
 /* --- Color Palette --- */
 :root {
   --ube: #a766b3;         /* Ube purple */
+  --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
-  --frosting: #ffcbff;      /* Frosting pink */
-  --muted: #cf7bfd;
-  --dusk: #0f0217;          /* Dark dusk purple */
-  --crimson: #800e0e;        /* Crimson */
+  --amathyst: #7942fa;      /* Amathyst */
+  --dusk: #180051;          /* Dusk Purple */
+  --Lapiz: #061376;        /* Lapiz */
 
-  --text-main: var(--dusk);
-  --text-muted: var(--muted);
-  --bg-main: var(--ube);
-  --bg-alt: var(--frosting);
-  --accent: var(--crimson);
+  /* Semantic assignments */
+  --text-primary: var(--dusk);
+  --text-secondary: var(--Lapiz);
+  --text-muted: var(--amathyst);
+  --text-link: var(--terracotta);
+
+  --bg-primary: var(--ube);
+  --bg-secondary: var(--wine);
+  
+  --accent: var(--grape);
+  --accent-hover: var(--dusk);
+  
+  --border: var(--dusk);
 }
-
 
 /*****************************************************
 PAGE SETUP
@@ -29,8 +36,8 @@ html, body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2rem;
-  background: var(--bg-main);
-  color: var(--text-main);
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .container {
@@ -79,8 +86,8 @@ p {
 .highlight {
   font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
   font-size: .9em;
-  background: var(--dusk);
-  color: var(--frosting);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   border-radius: 8px;
 }
 
@@ -114,7 +121,7 @@ a:hover::after {
 
 /* --- Navbar --- */
 nav {
-  background: var(--wine);
+  background: var(--bg-secondary);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -123,11 +130,11 @@ nav {
 
 nav a {
   font-family: "Space Mono", monospace;
-  color: var(--text-main);
+  color: var(--accent);
 }
 
 nav a:hover {
-  color: var(--crimson);
+  color: var(--accent-hover);
 }
 
 
@@ -135,8 +142,8 @@ nav a:hover {
 
 /* --- Cards/Blocks --- */
 .card {
-  background: var(--muted);
-  color: var(--charcoal);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   padding: 2em;
   margin: 1em 0;
   border-radius: 12px;
@@ -154,16 +161,16 @@ ToC ROWS
 *****************************************************/
 
 .toc-row {
-  background-color: var(--bg-main, #2a2a2a);
-  border-left: 3px solid var(--accent, #009FB7);
+  background-color: var(--bg-secondary);
+  border-left: 3px solid var(--border);
   border-radius: 6px;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .toc-row:hover {
-  background-color: var(--charcoal, #1a1a1a);
-  border-left-color: var(--teal, #009FB7);
+  background-color: var(--bg-secondary);
+  border-left-color: var(--accent-hover);
   transform: translateX(8px);
   transition: all 0.3s ease;
   cursor: pointer;
@@ -207,8 +214,8 @@ ToC ROWS
 /* --- Buttons --- */
 button,
 .btn {
-  background: var(--bg-main);
-  color: var(--text-main);
+  background: var(--accent);
+  color: var(--text-primary);
   border: none;
   padding: 0.75em 1.5em;
   font-family: "Arial", monospace;
@@ -220,14 +227,14 @@ button,
 
 button:hover,
 .btn:hover {
-  background: var(--wine);
+  background: var(--accent-hover);
 }
 
 
 
 /* --- Footer --- */
 footer {
-  background: var(--wine);
+  background: var(--bg-secondary);
   padding: 2em;
   text-align: center;
   font-size: 0.9rem;
