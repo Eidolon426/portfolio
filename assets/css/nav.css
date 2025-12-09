@@ -22,7 +22,7 @@ TOPNAV
   font-weight: bold !important;
   text-decoration: none;
   border-bottom: none;
-  color: var(--dusk) !important;
+  color: var(--text-primary) !important;
 }
 
 .navbar-nav {
@@ -32,7 +32,7 @@ TOPNAV
 }
 
 .navbar-nav a {
-  color: var(--dusk);
+  color: var(--text-primary);
   text-decoration: none;
   padding: .5rem 1rem;
   border-radius: 4px;
@@ -41,8 +41,8 @@ TOPNAV
 
 .navbar-nav a:hover,
 .navbar-nav a.active {
-  background: var(--dusk);
-  color: var(--wine);
+  background: var(--wine);
+  color: var(--text-link);
 }
 
 
