@@ -504,7 +504,7 @@ summary {
   cursor: pointer;
   padding: 5px;
   justify-content: center;
-  background-color: var(--accent);
+  background-color: var(--accent-hover);
   border-radius: 3px;
   margin: -10px -10px 10px -10px;
 }
