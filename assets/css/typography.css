@@ -104,7 +104,7 @@ CODE BLOCKS
 *****************************************************/
 
 .highlight {
-  background: var(--lichen);
+  background: var(--code-bg);
   border-radius: 8px;
   padding: .5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
@@ -117,7 +117,7 @@ CODE BLOCKS
   margin: 0;
   font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
   font-size: .9em;
-  color: #333;
+  color: var(--text-secondary);
 }
 
 
@@ -150,7 +150,7 @@ FOOTNOTE STYLING
 
 .littlefoot__button:hover,
 .littlefoot__button:focus {
-  background: #333;
+  background: var(--accent);
   color: #fff;
   outline: none;
 }

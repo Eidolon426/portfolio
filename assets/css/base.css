@@ -24,7 +24,7 @@ PAGE SETUP
 
   /* Semantic assignments */
   --text-primary: var(--dusk);
-  --text-secondary: var(crimson--);
+  --text-secondary: var(--crimson);
   --text-muted: var(--frosting);
   --text-link: var(--terracotta);
 
@@ -68,7 +68,7 @@ JUMBOTRON
   background-size: cover; 
   background-repeat: no-repeat;
   opacity: 1;   
-  color: white;
+  color: var(--frosting);
   text-shadow: black 0.3em 0.3em 0.3em;
 }
 
@@ -288,7 +288,7 @@ DIRECTORY CARDS
 }
 
 .card:hover {
-  background:#eee;
+  background: var(--bg-secondary);
   opacity:1;
   transform: scale(1.05); /* Slightly enlarge the card */
 }
@@ -341,7 +341,7 @@ IMAGE CAROUSEL
   margin: 0 auto;
   overflow: hidden;
   border-radius: 12px;
-  background: #eee;
+  background: var(--bg-secondary);
 }
 
 .carousel-item img {
@@ -352,12 +352,12 @@ IMAGE CAROUSEL
   object-fit: contain;
   display: block;
   margin: 0 auto;
-  background: #eee;
+  background: var(--bg-secondary);
   /* optional: for letterbox effect */
 }
 
 p.carousel-caption {
-  color: #666;
+  color: var(--text-primary);
   border: 0px solid black;
   font-family:'Source Sans 3';
   font-size:1.4rem;
@@ -433,7 +433,7 @@ ul li.highlighted::marker {
   top: 20px;
   right: 20px;
   background: rgba(0, 0, 0, 0.8);
-  color: white;
+  color: #fff;
   padding: 10px 15px;
   border-radius: 8px;
   font-family: monospace;

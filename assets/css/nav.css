@@ -41,8 +41,8 @@ TOPNAV
 
 .navbar-nav a:hover,
 .navbar-nav a.active {
-  background: #e5e5e5;
-  color: #0072b1;
+  background: var(--dusk);
+  color: var(--wine);
 }
 
 
