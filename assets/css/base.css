@@ -382,7 +382,7 @@ footer {
   padding: 2em;
   vertical-align: center;
   justify-content: center;
-  text-emphasis-color: var(--text-primary);
+  text-emphasis-color: var(--text-link);
   font-size: 3rem;
   background-color: var(--bg-secondary);
   border-top: 1px solid var(--border);
