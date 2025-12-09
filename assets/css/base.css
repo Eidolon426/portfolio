@@ -28,9 +28,9 @@ PAGE SETUP
   --text-link: var(--terracotta);
 
   --bg-primary: var(--ube);
-  --bg-secondary: var(--grape);
+  --bg-secondary: var(--wine);
   
-  --accent: var(--wine);
+  --accent: var(--grape);
   --accent-hover: var(--dusk);
   
   --border: var(--dusk);
