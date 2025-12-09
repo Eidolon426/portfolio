@@ -410,8 +410,8 @@ ul li {
 }
 
 ul li.highlighted {
-  background-color: #fff3cd;
-  border: 3px solid #ffc107;
+  background-color: var(--accent-hover);
+  border: 3px solid var(--accent);
   box-shadow: 0 4px 12px rgba(255, 193, 7, 0.4);
   transform: translateX(12px);
   font-weight: 600;
