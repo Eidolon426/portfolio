@@ -11,7 +11,7 @@ TOPNAV
 
 .navbar {
   padding: .5rem 1rem;
-  border-bottom: 1px solid var(--dusk);
+  border-bottom: 1px solid var(--border);
   font-family: 'arial', sans-serif;
 
   background-color: var(--wine) !important;

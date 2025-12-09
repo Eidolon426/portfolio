@@ -412,7 +412,7 @@ ul li {
 ul li.highlighted {
   background-color: var(--accent);
   border: 3px solid var(--border);
-  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.4);
+  box-shadow: 0 4px 12px rgba(255, 243, 5, 0.971);
   transform: translateX(12px);
   font-weight: 600;
   font-size: 1.15em;
