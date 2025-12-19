@@ -162,7 +162,7 @@ FOOTNOTE STYLING
   font-family: 'Arial', sans-serif;
   font-size: 0.8rem;
   text-decoration: none;
-  color: var(--text-secondary);
+  color: var(--text-link);
   
   background: var(--bg-secondary);
   opacity: .6;
