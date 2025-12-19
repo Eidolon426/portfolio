@@ -13,6 +13,7 @@ TOPNAV
   --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
+  --sunset: #da6d08;         /* Sunset */
   --amathyst: #7942fa;      /* Amathyst */
   --dusk: #180051;          /* Dusk Purple */
   --Lapiz: #061376;        /* Lapiz */
@@ -45,7 +46,7 @@ TOPNAV
   font-weight: bold !important;
   text-decoration: none;
   border-bottom: none;
-  color: var(--text-primary) !important;
+  color: var(--text-link) !important;
 }
 
 .navbar-nav {
@@ -55,7 +56,7 @@ TOPNAV
 }
 
 .navbar-nav a {
-  color: var(--text-primary);
+  color: var(--text-link);
   text-decoration: none;
   padding: .5rem 1rem;
   border-radius: 4px;
@@ -65,7 +66,7 @@ TOPNAV
 .navbar-nav a:hover,
 .navbar-nav a.active {
   background: var(--wine);
-  color: var(--text-link);
+  color: var(--sunset);
 }
 
 
