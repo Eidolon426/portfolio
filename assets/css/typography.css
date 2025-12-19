@@ -17,6 +17,7 @@ TYPOGRAPHY
   --amathyst: #7942fa;      /* Amathyst */
   --dusk: #180051;          /* Dusk Purple */
   --Lapiz: #061376;        /* Lapiz */
+  --sunset: #da6d08;         /* Sunset */
 
   /* Semantic assignments */
   --text-primary: var(--dusk);
@@ -93,12 +94,12 @@ p {
 a {
   color: var(--text-link);
   text-decoration: none;
-  border-bottom: 1px dotted var(--text-link);
+  border-bottom: 1px dotted var(--sunset);
 }
 
 a:visited {
- color: var(--text-link);
- border-bottom: 1px dotted var(--text-link);
+ color: var(--text-muted);
+ border-bottom: 1px dotted var(--text-secondary);
 }
 
 a:hover {
