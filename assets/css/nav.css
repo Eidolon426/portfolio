@@ -23,6 +23,7 @@ TOPNAV
   --text-secondary: var(--Lapiz);
   --text-muted: var(--amathyst);
   --text-link: var(--terracotta);
+  --text-highlight: var(--sunset);
 
   --bg-primary: var(--ube);
   --bg-secondary: var(--wine);
@@ -44,7 +45,7 @@ TOPNAV
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold !important;
-  text-decoration: none;
+  text-decoration-color: var(--text-highlight);
   border-bottom: none;
   color: var(--text-link) !important;
 }
