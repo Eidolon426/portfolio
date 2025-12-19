@@ -289,7 +289,7 @@ DIRECTORY CARDS
 }
 
 .card:hover {
-  background: var(--accent);
+  background: var(--bg-secondary);
   opacity:1;
   transform: scale(1.05); /* Slightly enlarge the card */
 }
