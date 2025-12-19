@@ -285,6 +285,7 @@ DIRECTORY CARDS
   opacity:.8;
   min-height: 15rem;
   transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+  background: var(--bg-secondary)
 }
 
 .card:hover {
@@ -306,7 +307,7 @@ DIRECTORY CARDS
 
 .card-body {
   font-family: 'Ariel', sans-serif;
-  background: var(--accent)
+  background: var(--bg-secondary)
 }
 
 .card h3 {
