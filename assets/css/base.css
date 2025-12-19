@@ -287,7 +287,7 @@ DIRECTORY CARDS
 }
 
 .card:hover {
-  background: var(--bg-secondary);
+  background: var(--terracotta);
   opacity:1;
   transform: scale(1.05); /* Slightly enlarge the card */
 }
