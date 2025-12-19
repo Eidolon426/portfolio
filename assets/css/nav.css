@@ -53,6 +53,7 @@ TOPNAV
 .navbar-nav {
   display: flex;
   list-style: none;
+  color: var(--bg-secondary);
   gap: 1rem;
 }
 
