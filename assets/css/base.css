@@ -385,7 +385,7 @@ footer {
   padding: 2em;
   vertical-align: center;
   justify-content: center;
-  color: var(--sunset);
+  color: var(--text-link);
   font-size: 3rem;
   background-color: var(--bg-secondary);
   border-top: 1px solid var(--border);
