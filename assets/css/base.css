@@ -17,6 +17,7 @@ PAGE SETUP
   --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
+  --sunset: #da6d08; 
   --amathyst: #7942fa;      /* Amathyst */
   --dusk: #180051;          /* Dusk Purple */
   --Lapiz: #061376;        /* Lapiz */
@@ -31,7 +32,7 @@ PAGE SETUP
   --bg-secondary: var(--wine);
   
   --accent: var(--grape);
-  --accent-hover: var(--dusk);
+  --accent-hover: var(--sunset);
   
   --border: var(--dusk);
 }
@@ -305,6 +306,7 @@ DIRECTORY CARDS
 
 .card-body {
   font-family: 'Ariel', sans-serif;
+  background: var(--accent)
 }
 
 .card h3 {
@@ -320,7 +322,7 @@ DIRECTORY CARDS
 
 .card  a {
   opacity:1;
-  color:var(--text-primary);
+  color:var(--text-link);
   text-decoration: none;
   border-bottom:2px
 }
