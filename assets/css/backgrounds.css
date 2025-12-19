@@ -2,6 +2,30 @@
 BACKGROUNDs
 *****************************************************/
 
+:root {
+  --ube: #a766b3;         /* Ube purple */
+  --grape: #7713b9;         /* grape purple */
+  --wine: #57124d;       /* Wine purple */
+  --terracotta: #963e30;         /* Terracotta red */
+  --amathyst: #7942fa;      /* Amathyst */
+  --dusk: #180051;          /* Dusk Purple */
+  --Lapiz: #061376;        /* Lapiz */
+
+  /* Semantic assignments */
+  --text-primary: var(--dusk);
+  --text-secondary: var(--Lapiz);
+  --text-muted: var(--amathyst);
+  --text-link: var(--terracotta);
+
+  --bg-primary: var(--ube);
+  --bg-secondary: var(--wine);
+  
+  --accent: var(--grape);
+  --accent-hover: var(--dusk);
+  
+  --border: var(--dusk);
+}
+
 .bg-image {
   position: relative;
   background-size: cover;
@@ -20,7 +44,7 @@ BACKGROUNDs
   background: var(--bg-secondary);
   color: var(--text-primary);  
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px var(--border);
 }
   
 
@@ -73,11 +97,11 @@ STICKY BACKGROUND
   padding: 1.5rem 2rem;
   font-family: 'Lora', 'Source Sans 3', sans-serif;
   line-height: 1.6;
-  background: #fff;
-  color: #222;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   z-index: 10;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px var(--border);
 }
 
 
