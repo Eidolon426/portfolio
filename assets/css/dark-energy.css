@@ -9,6 +9,7 @@
   --grape: #7713b9;         /* grape purple */
   --wine: #57124d;       /* Wine purple */
   --terracotta: #963e30;         /* Terracotta red */
+  --sunset: #da6d08;         /* Sunset */
   --amathyst: #7942fa;      /* Amathyst */
   --dusk: #180051;          /* Dusk Purple */
   --Lapiz: #061376;        /* Lapiz */
@@ -134,7 +135,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--text-primary);
+  color: var(--sunset);
 }
 
 

@@ -38,6 +38,7 @@ html, body {
   font-family: 'arial', sans-serif;
   font-size: 1rem; /* 16px is base font size */
   line-height: 1.4em;
+  color: var(--text-primary)
 }
 
 /* base font settings */
@@ -104,6 +105,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: var(--sunset)
 }
 
 .map-card {
@@ -131,7 +133,7 @@ CODE BLOCKS
   background: var(--bg-secondary);
   border-radius: 8px;
   padding: .5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px var(--border);
   overflow-x: auto;
   margin: 1rem 0;
 }
@@ -141,7 +143,7 @@ CODE BLOCKS
   margin: 0;
   font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
   font-size: .9em;
-  color: var(--text-secondary);
+  color: var(--text-link);
 }
 
 
