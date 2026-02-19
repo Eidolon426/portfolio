@@ -25,7 +25,7 @@ date: 2025-10-03
 </details>
 
 <details>
-<summary> Bolivia </summary>
+<summary> Cuba </summary>
 <iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/Topics/?corpus=2dda9af5add3a0daccfd8bc87bd4fb6b'></iframe>
 <iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=2dda9af5add3a0daccfd8bc87bd4fb6b'></iframe>
 </details>
