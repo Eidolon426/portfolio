@@ -41,3 +41,9 @@ date: 2025-10-03
 <iframe style='width: 750px; height: 495px;' src='https://voyant-tools.org/tool/Topics/?corpus=f8b5546e7ff1251fcd7f748d6a5b03a1'></iframe>
 <iframe style='width: 750px; height: 495px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=f8b5546e7ff1251fcd7f748d6a5b03a1'></iframe>
 </details>
+
+<details>
+<summary> Dominican Republic </summary>
+<iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/Topics/?corpus=4605faf678466000aa7207f4f1aabf23'></iframe>
+<iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=4605faf678466000aa7207f4f1aabf23'></iframe>
+</details>
