@@ -23,3 +23,9 @@ date: 2025-10-03
 <iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/Topics/?corpus=bc8502e3e4be86dac4c29dbc2a451d91'></iframe>
 <iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=bc8502e3e4be86dac4c29dbc2a451d91'></iframe>
 </details>
+
+<details>
+<summary> Bolivia </summary>
+<iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/Topics/?corpus=2dda9af5add3a0daccfd8bc87bd4fb6b'></iframe>
+<iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=2dda9af5add3a0daccfd8bc87bd4fb6b'></iframe>
+</details>
