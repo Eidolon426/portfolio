@@ -13,6 +13,12 @@ date: 2025-10-03
 </details>
 
 <details>
+<summary> Chile </summary>
+<iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/Topics/?corpus=ddc4c672cebae91412336e90539fb83c'></iframe>
+<iframe style='width: 750px; height: 494px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=ddc4c672cebae91412336e90539fb83c'></iframe>
+</details>
+
+<details>
 <summary> Costa Rica </summary>
 <iframe style='width: 750px; height: 493px;' src='https://voyant-tools.org/tool/Topics/?corpus=6dd958424659c1926ce436911aa0dc92'></iframe>
 <iframe style='width: 750px; height: 493px;' src='https://voyant-tools.org/tool/ScatterPlot/?label=summary&corpus=6dd958424659c1926ce436911aa0dc92'></iframe>
