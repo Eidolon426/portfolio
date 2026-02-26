@@ -45,9 +45,11 @@ function getRandomInt(min, max) {
 function loop() {
     requestAnimationFrame(loop);
     /* slow game loop to 15 fps instead of 60 (60/15 = 4) */
-    if (++count < 4) 
+    if (!go) {
+     if (++count < 4) 
         return;
-}
+    }
+gameover = false;
 count = 0;
 context.clearRect(0,0,canvas.width,canvas.height);
 /* move snake by it's velocity */
@@ -56,15 +58,13 @@ snake.y += snake.dy;
 /* wraps snake horizontally */
 if (snake.x < 0) {
     snake.x = canvas.width - grid;
-}    
-else if (snake.x >= canvas.width) {
+}  else if (snake.x >= canvas.width) {
     snake.x = 0;
 }
 /* wraps snake vertically */
 if (snake.y < 0) {
     snake.y = canvas.height - grid;
-}
-else if (snake.y >= canvas.height) {
+} else if (snake.y >= canvas.height) {
     snake.y = 0;
 }
 /* keep track of where snake has been. front of the array is always the head */
@@ -74,8 +74,38 @@ if (snake.cells.length > snake.maxCells) {
     snake.cells.pop();
 }
 /* Draw apple */
-context.fillStyle = 'red';
-context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+    context.fillStyle = 'red';
+    context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+    context.fillStyle = 'black';
+    snake.cells.forEach(function (cell, index) {
+         context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
+         if (cell.x === apple.x && cell.y === apple.y) {
+            snake.maxCells++;
+            scoreRef.current = scoreRef.current + 1;
+            onValueChange(scoreRef.current);
+            console.log(scoreRef.current);
+            apple.x = getRandomInt(0, 25) * grid;
+            apple.y = getRandomInt(0, 25) * grid;
+            }
+            for (var i = index + 1; i < snake.cells.length; i++) {
+                 if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+                    console.log('Game Over');
+                    snake.x = 160;
+                    snake.y = 160;
+                    snake.cells = [];
+                    snake.maxCells = 4;
+                    snake.dx = grid;
+                    snake.dy = 0;
+                    apple.x = getRandomInt(0, 25) * grid;
+                    apple.y = getRandomInt(0, 25) * grid;
+                    gameOver = true;
+                }
+            }
+            if (gameOver) {
+                        setGo(true);
+                    }
+                });
+            }
 /* draw snake one cell at a time */
 context.fillStyle = 'green';
 snake.cells.forEach(function (cell, index) {
@@ -131,6 +161,24 @@ document.addEventListener('keydown', function (e) {
     }
 });
 requestAnimationFrame(loop);
+const handleRestart = () => {
+        setGo(false);
+        scoreRef.current = 0;
+        onValueChange(scoreRef.current);
+        localStorage.setItem('score', '0');
+    };
+    return (
+        <div className="flex w-full justify-center items-center bg-white">
+            <canvas id="game" width="1000" height="700" className={`bg-[#f8f8f8] ${go ? 'hidden' : ''} `}></canvas>
+            {go && (
+                <div className={`flex flex-col items-center justify-center w-full h-full text-black text-6xl   ${!go ? 'hidden' : ''}`}>
+                    <div className='p-5'>Game Over. </div>
+                    <button onClick={handleRestart} className='bg-black rounded-md p-2 text-3xl text-white'>Restart</button>
+                </div>
+            )}
+        </div>
+    );
+};
 </script>
 </body>
 </html>
