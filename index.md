@@ -21,7 +21,7 @@ Hang out and rest a while
   <meta charset="UTF-8">
   <style>
   html, body {
-    height: 100%;
+    height: 50%;
     margin: 0;
 }
 body {
