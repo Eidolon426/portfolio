@@ -16,23 +16,6 @@ Hang out and rest a while
 
 
 <html>
-<head>
-  <title>Basic Snake HTML Game</title>
-  <meta charset="UTF-8">
-  <style>
-  html, body {
-    height: 50%;
-    margin: 0;
-}
-body {
-    display: flex;
-    height: 100vh;
-    }
-    canvas {
-        border: 1px solid white;
-    }
-    </style>
-</head>
 <body>
 <canvas id="game" width="400" height="400"></canvas>
 <script>
@@ -114,9 +97,9 @@ snake.cells.forEach(function (cell, index) {
             snake.cells = [];
             snake.maxCells = 4;
             snake.dx = grid;
-             snake.dy = 0;
+            snake.dy = 0;
             apple.x = getRandomInt(0, 25) * grid;
-             apple.y = getRandomInt(0, 25) * grid;
+            apple.y = getRandomInt(0, 25) * grid;
             }
         }
     });
