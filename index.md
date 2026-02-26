@@ -27,7 +27,6 @@ Hang out and rest a while
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     }
     canvas {
