@@ -14,7 +14,7 @@ Home Page
 Hang out and rest a while
 ---
 
-<title>Snake Game</title>
+---
 <style>
 body {
 display: flex;
@@ -113,4 +113,3 @@ snake.dx = 0;
 requestAnimationFrame(loop);
 </script>
 </body>
-</html>
