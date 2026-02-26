@@ -21,7 +21,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: black;
 }
 canvas {
 border: 1px solid white;
