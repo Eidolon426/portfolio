@@ -4,17 +4,17 @@ layout: base
 date: 2024-10-26
 ---
 
-^
+
 ## Simon's Portfolio
-^
 
 
----
+
+
 Home Page
 Hang out and rest a while
----
 
----
+
+
 <html>
 <head>
   <title>Basic Snake HTML Game</title>
@@ -26,7 +26,6 @@ Hang out and rest a while
 }
 body {
     display: flex;
-    justify-content: center;
     height: 100vh;
     }
     canvas {
