@@ -26,7 +26,7 @@ canvas {
 border: 1px solid white;
 }
 </style>
-</head>
+
 <body>
 <canvas id="game" width="400" height="400"></canvas>
 <script>
