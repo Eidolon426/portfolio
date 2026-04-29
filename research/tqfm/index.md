@@ -4,11 +4,8 @@ layout: base
 date: 2026-04-29
 ---
 
-<html>
-<head>
-<syle>
-h1 {text-align: center;}
-<h1> TQFMethods </h1>
+
+ <h1 style="text-align:center"> TQFMethods </h1>
 
 <details>
 <summary> Video 1 </summary>
