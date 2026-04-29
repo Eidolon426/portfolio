@@ -42,6 +42,10 @@ TOPNAV
   background-color: var(--bg-secondary) !important;
 }
 
+.dropdown-content {
+  background-color: var(--bg-secondary) !important;
+}
+
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold !important;
