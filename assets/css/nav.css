@@ -9,29 +9,26 @@ NAVIGATION
 TOPNAV
 *****************************************************/
 :root {
-  --ube: #a766b3;         /* Ube purple */
-  --grape: #7713b9;         /* grape purple */
-  --wine: #57124d;       /* Wine purple */
-  --terracotta: #b62e1a;         /* Terracotta red */
-  --sunset: #da6d08;         /* Sunset */
-  --amathyst: #7942fa;      /* Amathyst */
-  --dusk: #180051;          /* Dusk Purple */
-  --Lapiz: #061376;        /* Lapiz */
+  --pink: #ff13ff;
+  --grape: #33033e;
+  --wine: #2d002d;
+  --lime: #00ff00;
+  --garnet: #710051;
+  --lemon: #E5A50A;
 
   /* Semantic assignments */
-  --text-primary: var(--dusk);
-  --text-secondary: var(--Lapiz);
-  --text-muted: var(--amathyst);
-  --text-link: var(--terracotta);
-  --text-highlight: var(--sunset);
+  --text-primary: var(--pink);
+  --text-secondary: var(--garnet);
+  --text-muted: var(--garnet);
+  --text-link: var(--lime);
 
-  --bg-primary: var(--ube);
+  --bg-primary: var(--grape);
   --bg-secondary: var(--wine);
-  
-  --accent: var(--grape);
-  --accent-hover: var(--dusk);
-  
-  --border: var(--dusk);
+
+  --accent: var(--wine);
+  --accent-hover: var(--garnet);
+
+  --border: var(--pink);
 }
 
 .navbar {
