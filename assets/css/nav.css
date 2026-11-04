@@ -35,7 +35,7 @@ TOPNAV
   padding: .5rem 1rem;
   border-bottom: 1px solid var(--border);
   font-family: 'arial', sans-serif;
-  text-shadow: 1px solid var(--sunset);
+  text-shadow: 1px solid var(--bg-secondary);
   background-color: var(--bg-secondary) !important;
 }
 
@@ -69,7 +69,7 @@ TOPNAV
 .navbar-nav a:hover,
 .navbar-nav a.active {
   background: var(--wine);
-  color: var(--sunset);
+  color: var(--pink);
 }
 
 
