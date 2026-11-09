@@ -36,6 +36,7 @@ html, body {
   font-size: 1rem; /* 16px is base font size */
   line-height: 1.4em;
   color: var(--text-primary)
+  text-shadow: 2px solid var(--bg-secondary)
 }
 
 /* base font settings */
