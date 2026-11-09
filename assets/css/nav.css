@@ -35,7 +35,7 @@ TOPNAV
   padding: .5rem 1rem;
   border-bottom: 1px solid var(--border);
   font-family: 'arial', sans-serif;
-  text-shadow: 1px solid var(--bg-secondary);
+  text-shadow: 2px solid var(--bg-primary);
   background-color: var(--bg-secondary) !important;
 }
 
@@ -46,7 +46,7 @@ TOPNAV
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold !important;
-  text-decoration-color: var(--text-highlight);
+  text-decoration-color: var(--text-primary);
   border-bottom: none;
   color: var(--text-link) !important;
 }
